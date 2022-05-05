@@ -1,32 +1,68 @@
 html {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 main {
-    width: 75vw;
-    margin: 0 auto;
+  width: 75vw;
+  margin: 0 auto;
 }
 
 header {
-    width: 75vw;
-    text-align: center;
-    margin: 0 auto;
-    padding: 1rem;
+  width: 75vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  /* color: crimson;
+  text-decoration: none;  why couldnt we just style nav*/
+}
+
+nav a {
+  color: crimson;
+  text-decoration: none;
 }
 
 h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 blockquote {
-    padding: 1rem;
+  padding: 1rem;
+}
+.about > blockquote {
+  background-color: #eaeaea;
+}
+span:last-child {
+  font-weight: bold;
+  color: crimson;
+}
+a:first-child {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  /* creators. link {
+    font-family: "PT Serif", serif;
+}
+    */
+}
+.link font {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+.cta > h2 {
+  color: crimson;
+  font-family: "Lato", sans-serif;
+}
+li:first-child {
+  text-decoration: underline;
+}
+li:nth-child(3) {
+  text-decoration: underline;
 }
